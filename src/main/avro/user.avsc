@@ -1,9 +1,94 @@
-{"namespace": "org.demee.avrofaker.model",
- "type": "record",
- "name": "User",
- "fields": [
-     {"name": "name", "type": "string"},
-     {"name": "age",  "type": ["int", "null"]},
-     {"name": "gender", "type": ["string", "null"]}
- ]
+{
+  "namespace": "org.demee.avrofaker.model",
+  "type": "record",
+  "name": "User",
+  "fields": [
+    { 
+        "name": "name", 
+        "type": "string" },
+    { 
+        "name": "age", 
+        "type": ["int", "null"] 
+    },
+    { 
+        "name": "gender", 
+        "type": ["string", "null"] 
+    },
+    {
+      "name": "email",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "phone",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "address",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "city",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "state",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "country",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "zip",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "latitude",
+      "type": ["double", "null"]
+    },
+    {
+      "name": "longitude",
+      "type": ["double", "null"]
+    },
+    {
+      "name": "ip",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "mac",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "website",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "company",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "job",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "creditCardType",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "creditCardNumber",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "creditCardExpiration",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "creditCardCvv",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "username",
+      "type": ["string", "null"]
+    }
+  ]
 }
